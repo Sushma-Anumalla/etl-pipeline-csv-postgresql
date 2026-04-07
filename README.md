@@ -95,6 +95,11 @@ python etl.py
 - Reusable Python script  
 
 ---
+## How It Works
+
+1. Extract: Read CSV file using Pandas  
+2. Transform: Clean data and create calculated column  
+3. Load: Insert data into PostgreSQL table  
 
 ## Author
 
